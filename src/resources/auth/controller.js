@@ -1,4 +1,4 @@
-import AppError from "../../services/AppError.js";
+import AppError from "../../services/appError.js";
 import catchAsync from "../../services/catchAsync.js";
 import { signToken } from "../../services/token.js";
 import Patient from "../patient/model.js";
