@@ -1,4 +1,4 @@
-import AppError from "../../services/AppError.js";
+import AppError from "../../services/appError.js";
 import Medicine from "./model.js";
 import catchAsync from "../../services/catchAsync.js";
 

@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import catchAsync from "../services/catchAsync.js";
-import AppError from "../services/AppError.js";
+import AppError from "../services/appError.js";
 import dotenv from "dotenv";
 import { promisify } from "util";
 import Patient from "../resources/patient/model.js";
